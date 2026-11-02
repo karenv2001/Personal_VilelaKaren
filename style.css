@@ -1,0 +1,114 @@
+/* Estilos generales */
+body {
+    background-color: #f0f0f0;
+    margin: 30px;
+    font-family: Arial, sans-serif;
+    color: #212529;
+}
+
+/* Tarjetas blancas */
+.contenedor {
+    background-color: white;
+    padding: 25px;
+    max-width: 700px;
+    margin: 0 auto 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Titulo con id */
+#titulo {
+    color: #1F4E79;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #2E74B5;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+h2 {
+    color: #2E74B5;
+    border-bottom: 2px solid #DCE6F1;
+    padding-bottom: 5px;
+}
+
+h2:hover {
+    color: #1F4E79;
+}
+
+ul {
+    line-height: 1.6;
+}
+
+/* Formulario de la calculadora */
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1F4E79;
+}
+
+input[type="text"],
+select {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #2E74B5;
+    outline: none;
+    box-shadow: 0 0 0 3px #DCE6F1;
+}
+
+button {
+    margin-top: 18px;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: white;
+    background-color: #1F4E79;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2E74B5;
+}
+
+/* Enlace de LinkedIn */
+.enlace {
+    color: #2E74B5;
+}
+
+.enlace:hover {
+    color: #1F4E79;
+}
+
+/* Mensajes de la calculadora */
+.mensaje {
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+.resultado {
+    background-color: #DCE6F1;
+    color: #1F4E79;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #842029;
+}
